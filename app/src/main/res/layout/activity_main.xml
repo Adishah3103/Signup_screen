@@ -56,30 +56,19 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent" />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="123dp"
-        android:layout_height="46dp"
-        android:layout_marginBottom="84dp"
-        android:layout_marginLeft="68dp"
-        android:padding="10dp"
-        android:text="New User ?"
-        android:textColor="@color/white"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button4"
-        app:layout_constraintLeft_toLeftOf="parent" />
-
     <Button
-        android:id="@+id/button4"
-        android:layout_width="150dp"
-        android:layout_height="40dp"
-        android:layout_marginBottom="84dp"
-        android:layout_marginRight="52dp"
-        android:background="@drawable/edittext"
+        android:id="@+id/signup"
+        android:layout_width="206dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="56dp"
+        android:layout_marginRight="88dp"
+        android:background="@android:color/transparent"
         android:onClick="signup"
-        android:text="Sign Up"
+        android:text="Not a registered user?"
+        android:textAllCaps="false"
         android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintRight_toRightOf="parent" />
 
