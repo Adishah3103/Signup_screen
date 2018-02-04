@@ -4,28 +4,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#00897B"
     tools:context="com.example.aditya.login.Hello">
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="114dp"
         android:layout_height="50dp"
-        android:layout_marginEnd="16dp"
         android:layout_marginStart="40dp"
         android:layout_marginTop="108dp"
+        android:fontFamily="@font/abel"
         android:text="Hello"
+        android:textColor="#BBDEFB"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/tv1"
-        app:layout_constraintHorizontal_bias="0.456"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/tv1"
-        android:layout_width="114dp"
+        android:layout_width="218dp"
         android:layout_height="50dp"
-        android:layout_marginEnd="44dp"
+        android:layout_marginEnd="10dp"
         android:layout_marginTop="108dp"
-        android:text="TextView"
+        android:fontFamily="@font/abel"
+        android:text="name"
+        android:textColor="#BBDEFB"
+        android:textAlignment="viewStart"
+        android:textSize="30sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>
